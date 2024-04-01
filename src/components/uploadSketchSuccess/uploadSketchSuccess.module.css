@@ -1,0 +1,64 @@
+.uploadsketchbox {
+  /* border: 1px dashed;
+    border-color: #707070; */
+  margin-top: 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+  background-image: repeating-linear-gradient(
+      -60deg,
+      #707070,
+      #707070 3px,
+      transparent 3px,
+      transparent 5px,
+      #707070 5px
+    ),
+    repeating-linear-gradient(
+      30deg,
+      #707070,
+      #707070 3px,
+      transparent 3px,
+      transparent 5px,
+      #707070 5px
+    ),
+    repeating-linear-gradient(
+      120deg,
+      #707070,
+      #707070 3px,
+      transparent 3px,
+      transparent 5px,
+      #707070 5px
+    ),
+    repeating-linear-gradient(
+      210deg,
+      #707070,
+      #707070 3px,
+      transparent 3px,
+      transparent 5px,
+      #707070 5px
+    );
+  background-size: 1px 100%, 100% 1px, 1px 100%, 100% 1px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+}
+
+.uploadsketchheading {
+  color: #a8a8a8;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.uploadsketchbutton {
+  background-color: #ffffff;
+  color: #065367;
+  padding: 6px 75px 6px 75px;
+  text-transform: unset;
+  border-radius: 10px;
+  transition: ease-in-out;
+}
+
+.uploadsketchbutton:hover {
+  background-color: #065367;
+  color: #ffffff;
+}

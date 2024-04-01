@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Sora&display=swap');
+
+*{
+  font-family: 'Sora';
+  font-style: normal;
+}
+
+.nav-logo{
+  width: 150px;
+}
+
+.MuiFormHelperText-root {
+  color: red !important;
+}

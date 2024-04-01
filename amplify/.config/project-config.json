@@ -1,0 +1,18 @@
+{
+  "projectName": "codemysketch",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "npx react-scripts build",
+      "StartCommand": "npx react-scripts start",
+      "ServerlessContainers": false
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}

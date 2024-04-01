@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-codemysketch-dev-203504-authRole",
+      "UnauthRoleArn": "arn:aws:iam::991533539387:role/amplify-codemysketch-dev-203504-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::991533539387:role/amplify-codemysketch-dev-203504-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-codemysketch-dev-203504-deployment",
+      "UnauthRoleName": "amplify-codemysketch-dev-203504-unauthRole",
+      "StackName": "amplify-codemysketch-dev-203504",
+      "StackId": "arn:aws:cloudformation:ap-south-1:991533539387:stack/amplify-codemysketch-dev-203504/808a14a0-7f56-11eb-a04b-0a3535b541e6",
+      "AmplifyAppId": "d1sjmt7yh3meaf"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1sjmt7yh3meaf",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

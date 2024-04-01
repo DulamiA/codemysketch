@@ -1,0 +1,51 @@
+.navbg {
+  background-color: #ffffff;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.menuListLeft {
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.menuListRight {
+  display: flex;
+  align-items: center;
+  float: right;
+  color: #04a5cf;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  margin-right: 25px;
+  text-decoration: none ;
+  color: #065367;
+}
+.listItem:hover {
+  color:#000000;
+}
+
+.menuLink{
+  text-decoration: none ;
+}
+
+.SignUpBtn {
+  background-color: #04a5cf;
+  color: #ffffff;
+  border-radius: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.SignUpBtn:hover {
+  background-color: #3f3f3f;
+}

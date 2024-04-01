@@ -1,0 +1,24 @@
+.footerbg {
+    background-color: #eef8ff;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 600;
+    /* position: absolute; */
+    padding: 10px 0px 10px 0px;
+  }
+  .footermiddlepara {
+    color: #065367;
+    font-size: 12px;
+    font-weight: 500;
+
+  }
+  .footerGrids{
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.dev.footerDev{
+    position: fixed;
+    bottom: 0px;
+}

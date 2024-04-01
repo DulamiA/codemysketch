@@ -1,0 +1,107 @@
+.bodyBg {
+  height: 100vh;
+}
+
+.formWrapper {
+  padding-top: 80px;
+}
+
+.formContainer {
+  background-color: #f8f8f8;
+  border-radius: 30px;
+}
+
+.inputFields {
+  margin-left: 30px;
+}
+
+.titleRegister {
+  color: #3f3f3f;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.inputbgimage {
+  background-image: url("../../assests/registerbg.svg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: inline-block; 
+  background-size:cover;
+  justify-self: center;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.input {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  margin-right: 8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .clickingSignUp {
+    font-size: 9px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #8a8a8a;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .clickingSignUp {
+    font-size: 10px;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #8a8a8a;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .SignUpButton {
+    background-color: #04a5cf;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 120px 5px 120px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 18px;
+  }
+  
+  .SignUpButton:hover {
+    background-color: #3f3f3f;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .SignUpButton {
+    background-color: #04a5cf;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 160px 5px 160px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 18px;
+  }
+  
+  .SignUpButton:hover {
+    background-color: #3f3f3f;
+  }
+}
+
+
+
+.alreadyHaveAccount {
+  margin-top: 20px;
+  font-size: 10px;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #8a8a8a;
+  text-align: center;
+  margin-bottom: 10px;
+}
